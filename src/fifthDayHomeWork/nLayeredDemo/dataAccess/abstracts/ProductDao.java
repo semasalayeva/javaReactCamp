@@ -1,6 +1,6 @@
-package fivethDayHomeWork.nLayeredDemo.dataAccess.abstracts;
+package fifthDayHomeWork.nLayeredDemo.dataAccess.abstracts;
 
-import fivethDayHomeWork.nLayeredDemo.entities.concretes.Product;
+import fifthDayHomeWork.nLayeredDemo.entities.concretes.Product;
 
 import java.util.List;
 

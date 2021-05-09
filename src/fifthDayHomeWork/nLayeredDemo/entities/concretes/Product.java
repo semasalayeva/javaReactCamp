@@ -1,6 +1,6 @@
-package fivethDayHomeWork.nLayeredDemo.entities.concretes;
+package fifthDayHomeWork.nLayeredDemo.entities.concretes;
 
-import fivethDayHomeWork.nLayeredDemo.entities.abstracts.Entity;
+import fifthDayHomeWork.nLayeredDemo.entities.abstracts.Entity;
 
 public class Product implements Entity {
     private int id;

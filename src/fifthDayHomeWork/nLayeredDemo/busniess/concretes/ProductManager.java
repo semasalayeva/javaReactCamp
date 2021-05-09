@@ -1,10 +1,9 @@
-package fivethDayHomeWork.nLayeredDemo.busniess.concretes;
+package fifthDayHomeWork.nLayeredDemo.busniess.concretes;
 
-import fivethDayHomeWork.nLayeredDemo.busniess.abstracts.ProductService;
-import fivethDayHomeWork.nLayeredDemo.core.abstracts.LoggerService;
-import fivethDayHomeWork.nLayeredDemo.dataAccess.abstracts.ProductDao;
-import fivethDayHomeWork.nLayeredDemo.dataAccess.concretes.HibernateProductDao;
-import fivethDayHomeWork.nLayeredDemo.entities.concretes.Product;
+import fifthDayHomeWork.nLayeredDemo.busniess.abstracts.ProductService;
+import fifthDayHomeWork.nLayeredDemo.core.abstracts.LoggerService;
+import fifthDayHomeWork.nLayeredDemo.dataAccess.abstracts.ProductDao;
+import fifthDayHomeWork.nLayeredDemo.entities.concretes.Product;
 
 import java.util.List;
 

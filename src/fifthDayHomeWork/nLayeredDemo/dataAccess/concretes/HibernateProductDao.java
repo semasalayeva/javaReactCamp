@@ -1,20 +1,19 @@
-package fivethDayHomeWork.nLayeredDemo.dataAccess.concretes;
+package fifthDayHomeWork.nLayeredDemo.dataAccess.concretes;
 
-import fivethDayHomeWork.nLayeredDemo.dataAccess.abstracts.ProductDao;
-import fivethDayHomeWork.nLayeredDemo.entities.concretes.Product;
+import fifthDayHomeWork.nLayeredDemo.dataAccess.abstracts.ProductDao;
+import fifthDayHomeWork.nLayeredDemo.entities.concretes.Product;
 
 import java.util.List;
 
-public class AbcProdcutDao implements ProductDao {
+public class HibernateProductDao implements ProductDao {
     @Override
     public void add(Product product) {
-        System.out.println("Abc ile eklendi : " + product.getName());
-
+        System.out.println("Hibernate ile eklendi : " + product.getName());
     }
 
     @Override
     public void update(Product product) {
-
+        System.out.println();
     }
 
     @Override
